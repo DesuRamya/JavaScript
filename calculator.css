@@ -1,0 +1,83 @@
+body{
+	background: linear-gradient(to top left,rgba(28,185,130,0.936),rgb(28,174,185,0.936));
+	height: 100vh;
+}
+.head{
+	text-align: center;
+	color: purple;
+}
+.Calculator{
+	background :linear-gradient(135deg, rgba(185, 28, 28, 0.936),rgb(31, 10, 95));;
+	width:300px ;
+	padding: 15px;
+	border-radius: 30px;
+}
+.tab1{
+	height: 50px;
+	width: 250px;
+	border-radius: 30px;
+	font-weight: 30px;
+}
+.r1{
+	padding-top: 15px;
+}
+.r11{
+	height: 50px;
+	width: 50px;
+	background-color:sandybrown;
+	color: green;
+	font-size:16px ;
+	border-radius: 30px;
+}
+.r2{
+	padding-top: 15px;
+}
+.r22{
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+	color: hotpink;
+	font-size:20px ;
+	border-radius: 30px;
+}
+.r3{
+	padding-top: 15px;
+}
+.r33{
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+	color: hotpink;
+	border-radius: 30px;
+	font-size:20px ;
+}
+.r4{
+	padding-top: 15px;
+}
+.r44{
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+	color: hotpink;
+	border-radius: 30px;
+	font-size:20px ;
+}
+.r5{
+	padding-top: 15px;
+}
+.r55{
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+	border-radius: 30px;
+	color: hotpink;
+	font-size:20px ;
+}
+.r51{
+	height: 50px;
+	width: 100px;
+	background-color: royalblue;
+	color: greenyellow;
+	border-radius: 30px;
+
+}

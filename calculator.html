@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="Calculator.css">
+	
+</head>
+<body>
+<div class="container">
+	<h1 class="head">Calculator</h1>
+	<center><b>
+<div class="Calculator">
+	<form>
+		<div class="tab">
+			<input type="text" name="tab" class="tab1">
+		</div>
+		<div class="r1">
+			<input type="button" value="AC" onclick="tab.value='' " class="r11">
+			<input type="button" value="DEL" onclick="tab.value=tab.value.toString().slice(0,-1)" class="r11">
+			<input type="button" value="%" onclick="tab.value+='%'" class="r11">
+			<input type="button" value="/" onclick="tab.value+='/'"class="r11">
+		</div>
+		<div class="r2">
+			<input type="button" value="7" onclick="tab.value+='7'" class="r22">
+			<input type="button" value="8" onclick="tab.value+='8'" class="r22">
+			<input type="button" value="9" onclick="tab.value+='9'" class="r22">
+			<input type="button" value="*" onclick="tab.value+='*'"class="r11">
+		</div>
+		<div class="r3">
+			<input type="button" value="4" onclick="tab.value+='4'" class="r33">
+			<input type="button" value="5" onclick="tab.value+='5'" class="r33">
+			<input type="button" value="6" onclick="tab.value+='6'" class="r33">
+			<input type="button" value="-" onclick="tab.value+='-'" class="r11">
+		</div>
+		<div class="r4">
+			<input type="button" value="1" onclick="tab.value+='1'"	class="r44">
+			<input type="button" value="2" onclick="tab.value+='2'" class="r44">
+			<input type="button" value="3" onclick="tab.value+='3'" class="r44">
+			<input type="button" value="+" onclick="tab.value+='+'" class="r11">
+		</div>
+		<div class="r5">
+			<input type="button" value="0" onclick="tab.value+='0'" class="r55">
+			<input type="button" value="." onclick="tab.value+='.'" class="r55">
+			<input type="button" value="=" onclick="tab.value=eval(tab.value)" class="r51">
+		</div>
+		</b></center>
+	</form>
+</div>
+</div>
+</body>
+</html>
