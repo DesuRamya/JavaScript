@@ -1,0 +1,39 @@
+body{
+	background-image:linear-gradient(to right,#12c2e9 , #c471ed , #f64f59) ;
+}
+h1{
+	margin-top: 60px;
+	font-size: 40px;
+	color: red;
+}
+#button1{
+	border-color: royalblue;
+	color: #f9060b;
+	height: 50px;
+	width: 150px;
+	background: linear-gradient(to right,#1FA2FF,#12D8FA,#A6FFCB);
+	font-family: sans-serif;
+	font-style: bold;
+	font-size: 20px;
+	margin-top: 100px;
+}
+#button2{
+	border-color: royalblue;
+	color: #f9060b;
+	height: 50px;
+	width: 150px;
+	background: linear-gradient(to right,#1FA2FF,#12D8FA,#A6FFCB);
+	font-family: sans-serif;
+	font-style: bold;
+	font-size: 20px;
+	margin-top: 100px;
+}
+
+#print{
+	border-color: palegreen;
+	height: 100px;
+	width: 500px;
+	color: red;
+	font-size: 80px;
+
+}
